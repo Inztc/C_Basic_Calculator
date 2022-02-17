@@ -6,7 +6,7 @@ int	main(void)
 	float	value2;
 	char	operator;
 
-	printf("Type in your expression.\n");
+	printf("Type your number and operator here.\n");
 	scanf("%f %c %f", &value1, &operator, &value2);
 
 	switch (operator)
